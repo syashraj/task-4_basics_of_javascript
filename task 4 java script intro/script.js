@@ -64,4 +64,53 @@ console.log(result9);
 result10=(number1+=5);
 console.log(number1);
 
+let number20=4+5*10-(52+4);//BODMAS
+console.log(number20);
+
+//data types
+//string,integer,boolean,undefined,null,and other 3
+
+let text="yashraj";
+console.log(typeof (text));//string
+
+let demo=45;
+console.log(typeof (demo));//number
+
+let demo1=true;
+console.log(typeof (demo1));//boolean
+
+let firstname="yash";
+let lastname="raj";
+result11=(firstname+" "+lastname);
+console.log(result11);
+
+//null
+let x=null;
+console.log(x);
+
+//undefined
+let y
+console.log(y);
+
+//if else
+let number=5;
+if(number==5){
+    console.log("hello_world");
+}
+
+let number3=5;
+if (number3==4){
+    console.log(yes_you_are_write);
+}
+else{
+    console.log("plz_type_the_currect_number");
+}
+
+//for loop
+let number12=0;
+for(number12=0;number12<11;number12++);
+{
+    console.log(number12)
+}
+
 
